@@ -19,6 +19,17 @@ char stack[PROC_SIZE][STACK_SIZE];
 unsigned sys_tick=0;
 struct i386_gate *intr_table;
 
+void boot();
+void zeroQueues();
+void CreateProc(func_p_t);
+
+
+void main(void) {                   // kernel boots
+
+    zeroQueues();
+    boot();
+}
+
 void CreateProc(func_p_t type){
   cur_pid = DeQ(&unused_q);
   EnQ(cur_pid, &ready_q);
@@ -35,6 +46,8 @@ void CreateProc(func_p_t type){
 
 }
 
+
+
 void boot(){
 	int i;
 	sys_tick = 0;
@@ -47,13 +60,15 @@ void boot(){
 	}
 
 	fill_gate(&intr_table[TIMER], (int)TimerEntry, get_cs(), ACC_INTR_GATE, 0);
-	fill_gate(&intr_table[GET_TIME], (int)GetTimeEntry, get_time_call(), ACC_INTR_GATE, 0);
-	fill_gate(&intr_table[WRITE], (int)WriteEntry, write_call(), ACC_INTR_GATE, 0);
-	fill_gate(&intr_table[READ], (int)ReadEntry, read_call(), ACC_INTR_GATE, 0);
+	fill_gate(&intr_table[GET_TIME], (int)GetTimeEntry, get_cs(), ACC_INTR_GATE, 0);
+	fill_gate(&intr_table[WRITE], (int)WriteEntry, get_cs(), ACC_INTR_GATE, 0);
+	fill_gate(&intr_table[READ], (int)ReadEntry, get_cs(), ACC_INTR_GATE, 0);
 	outportb(PIC_MASK_REG, PIC_MASK);
 	asm("sti");
 
 	CreateProc((func_p_t)Clock);
+	CreateProc((func_p_t)Idle);
+
 	cur_pid = DeQ(&ready_q);
 	Loader(pcb[cur_pid].tf_p);
 }
@@ -71,9 +86,5 @@ void zeroQueues(){
 	kb.wait_queue.tail = 0;
 }
 
-void main(void) {                   // kernel boots
 
-	zeroQueues();
-	boot();
-}
 

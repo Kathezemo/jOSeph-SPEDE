@@ -7,6 +7,6 @@
 
 int get_time_call(void);
 void write_call(char *str);
-char read_call(char *str);
+void read_call(char *str);
 
 #endif //JOSH_SYSCALL_H

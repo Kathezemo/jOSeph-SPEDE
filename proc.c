@@ -4,6 +4,7 @@
 
 #include "spede.h"
 #include "kernel.h"
+#include "syscall.h"
 
 void ToStr(int, char*);
 int StrLen(char*);
@@ -28,6 +29,25 @@ void Clock(){
       }
       //sys_tick++;
    }
+}
+
+void Idle(){
+    int secs;
+    char *str = "    ";
+    char ans[STR_SIZE];
+
+    while(1){
+        secs = get_time_call();
+        ToStr(secs, str);
+        write_call("The time is ");
+        write_call(str);
+        write_call(".\n");
+        write_call("What do you say to a cup of coffee");
+        read_call(ans);
+        write_call("The answer is ");
+        write_call(ans);
+        write_call(".\n");
+    }
 }
 
 void ToStr(int x, char *str){

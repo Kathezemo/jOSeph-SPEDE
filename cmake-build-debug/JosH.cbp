@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JosH">
-				<Option output="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/JosH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug"/>
+				<Option output="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/JosH.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -39,15 +39,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 JosH"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 JosH"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JosH/fast">
-				<Option output="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/JosH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug"/>
+				<Option output="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/JosH.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,51 +57,51 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 JosH/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 JosH/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Docs/College/Sac\ State/CSC\ 159/Phase2/jOSeph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/boot.c">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/boot.c">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.c">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.c">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.h">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.h">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.c">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.c">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.h">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.h">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.c">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.c">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.h">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.h">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.c">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.c">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.h">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.h">
 			<Option target="JosH"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

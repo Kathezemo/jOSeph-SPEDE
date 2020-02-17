@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/boot.c" "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/boot.c.o"
-  "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.c" "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/kernel.c.o"
-  "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.c" "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/misc.c.o"
-  "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.c" "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/proc.c.o"
-  "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.c" "/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/syscall.c.o"
+  "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/boot.c" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/boot.c.o"
+  "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.c" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/kernel.c.o"
+  "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.c" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/misc.c.o"
+  "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.c" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/proc.c.o"
+  "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.c" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/syscall.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/ChronoGuardian/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/TheChronoGuardian/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/ChronoGuardian/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/TheChronoGuardian/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH
+CMAKE_SOURCE_DIR = "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug
+CMAKE_BINARY_DIR = "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/JosH.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/JosH.dir/flags.make
 
 CMakeFiles/JosH.dir/kernel.c.o: CMakeFiles/JosH.dir/flags.make
 CMakeFiles/JosH.dir/kernel.c.o: ../kernel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JosH.dir/kernel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/kernel.c.o   -c /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JosH.dir/kernel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/kernel.c.o   -c "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.c"
 
 CMakeFiles/JosH.dir/kernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JosH.dir/kernel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.c > CMakeFiles/JosH.dir/kernel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.c" > CMakeFiles/JosH.dir/kernel.c.i
 
 CMakeFiles/JosH.dir/kernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JosH.dir/kernel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/kernel.c -o CMakeFiles/JosH.dir/kernel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/kernel.c" -o CMakeFiles/JosH.dir/kernel.c.s
 
 CMakeFiles/JosH.dir/proc.c.o: CMakeFiles/JosH.dir/flags.make
 CMakeFiles/JosH.dir/proc.c.o: ../proc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JosH.dir/proc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/proc.c.o   -c /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JosH.dir/proc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/proc.c.o   -c "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.c"
 
 CMakeFiles/JosH.dir/proc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JosH.dir/proc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.c > CMakeFiles/JosH.dir/proc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.c" > CMakeFiles/JosH.dir/proc.c.i
 
 CMakeFiles/JosH.dir/proc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JosH.dir/proc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/proc.c -o CMakeFiles/JosH.dir/proc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/proc.c" -o CMakeFiles/JosH.dir/proc.c.s
 
 CMakeFiles/JosH.dir/misc.c.o: CMakeFiles/JosH.dir/flags.make
 CMakeFiles/JosH.dir/misc.c.o: ../misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/JosH.dir/misc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/misc.c.o   -c /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/JosH.dir/misc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/misc.c.o   -c "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.c"
 
 CMakeFiles/JosH.dir/misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JosH.dir/misc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.c > CMakeFiles/JosH.dir/misc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.c" > CMakeFiles/JosH.dir/misc.c.i
 
 CMakeFiles/JosH.dir/misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JosH.dir/misc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/misc.c -o CMakeFiles/JosH.dir/misc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/misc.c" -o CMakeFiles/JosH.dir/misc.c.s
 
 CMakeFiles/JosH.dir/boot.c.o: CMakeFiles/JosH.dir/flags.make
 CMakeFiles/JosH.dir/boot.c.o: ../boot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JosH.dir/boot.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/boot.c.o   -c /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/boot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JosH.dir/boot.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/boot.c.o   -c "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/boot.c"
 
 CMakeFiles/JosH.dir/boot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JosH.dir/boot.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/boot.c > CMakeFiles/JosH.dir/boot.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/boot.c" > CMakeFiles/JosH.dir/boot.c.i
 
 CMakeFiles/JosH.dir/boot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JosH.dir/boot.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/boot.c -o CMakeFiles/JosH.dir/boot.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/boot.c" -o CMakeFiles/JosH.dir/boot.c.s
 
 CMakeFiles/JosH.dir/syscall.c.o: CMakeFiles/JosH.dir/flags.make
 CMakeFiles/JosH.dir/syscall.c.o: ../syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JosH.dir/syscall.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/syscall.c.o   -c /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JosH.dir/syscall.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JosH.dir/syscall.c.o   -c "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.c"
 
 CMakeFiles/JosH.dir/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JosH.dir/syscall.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.c > CMakeFiles/JosH.dir/syscall.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.c" > CMakeFiles/JosH.dir/syscall.c.i
 
 CMakeFiles/JosH.dir/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JosH.dir/syscall.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/syscall.c -o CMakeFiles/JosH.dir/syscall.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/syscall.c" -o CMakeFiles/JosH.dir/syscall.c.s
 
 # Object files for target JosH
 JosH_OBJECTS = \
@@ -140,7 +140,7 @@ JosH.exe: CMakeFiles/JosH.dir/boot.c.o
 JosH.exe: CMakeFiles/JosH.dir/syscall.c.o
 JosH.exe: CMakeFiles/JosH.dir/build.make
 JosH.exe: CMakeFiles/JosH.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable JosH.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable JosH.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JosH.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/JosH.dir/clean:
 .PHONY : CMakeFiles/JosH.dir/clean
 
 CMakeFiles/JosH.dir/depend:
-	cd /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug /cygdrive/c/Users/ChronoGuardian/CLionProjects/JosH/cmake-build-debug/CMakeFiles/JosH.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug" "/cygdrive/d/Docs/College/Sac State/CSC 159/Phase2/jOSeph/cmake-build-debug/CMakeFiles/JosH.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/JosH.dir/depend
 

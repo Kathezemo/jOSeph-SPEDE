@@ -24,6 +24,11 @@ void write_call(char *str) {
 	);
 }
 
-char read_call(char *str){
-
+void read_call(char *str){
+    asm("movl %0, %%eax;
+    int $50"
+    :
+    : "g" ((int)str)
+    : "eax"
+    );
 }
