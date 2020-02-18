@@ -1,9 +1,11 @@
 // misc.h, 159
+//
+// Team Name: sampsonj (Members: Joshua Sampson)
 
 #ifndef __MISC__
 #define __MIsC__
 
-#include "kernel.h" // need definition of 'q_t' below
+#include "kernel.h"
 
 int QisEmpty(q_t *);
 int QisFull(q_t *);

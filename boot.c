@@ -1,4 +1,4 @@
-// boot.c, 159, phase 1
+// boot.c, 159
 //
 // Team Name: sampsonj (Members: Joshua Sampson)
 
@@ -26,26 +26,23 @@ void CreateProc(func_p_t);
 
 void main(void) {                   // kernel boots
 
-    zeroQueues();
-    boot();
+	zeroQueues();
+	boot();
 }
 
 void CreateProc(func_p_t type){
-  cur_pid = DeQ(&unused_q);
-  EnQ(cur_pid, &ready_q);
+	cur_pid = DeQ(&unused_q);
+	EnQ(cur_pid, &ready_q);
 
-  //clear both the PCB and stack for the new PID
-  Bzero(&stack[cur_pid][0], STACK_SIZE);
-  Bzero((char*)&pcb[cur_pid], sizeof(q_t));
+	Bzero(&stack[cur_pid][0], STACK_SIZE);
+	Bzero((char*)&pcb[cur_pid], sizeof(pcb_t));
 
-  pcb[cur_pid].state = READY;
-  pcb[cur_pid].tf_p = (tf_t *) &stack[cur_pid][STACK_SIZE - sizeof(tf_t)];
-  pcb[cur_pid].tf_p -> efl = EFL;
-  pcb[cur_pid].tf_p -> cs = CS;
-  pcb[cur_pid].tf_p -> eip = (int)type;
-
+	pcb[cur_pid].state = READY;
+	pcb[cur_pid].tf_p = (tf_t *) &stack[cur_pid][STACK_SIZE - sizeof(tf_t)];
+	pcb[cur_pid].tf_p -> efl = EFL;
+	pcb[cur_pid].tf_p -> cs = CS;
+	pcb[cur_pid].tf_p -> eip = (int)type;
 }
-
 
 
 void boot(){
@@ -80,10 +77,13 @@ void zeroQueues(){
 
 	unused_q.head = 0;
 	unused_q.tail = 0;
+	unused_q.size = 0;
 	ready_q.head = 0;
 	ready_q.tail = 0;
+	ready_q.size = 0;
 	kb.wait_queue.head = 0;
 	kb.wait_queue.tail = 0;
+	kb.wait_queue.size = 0;
 }
 
 

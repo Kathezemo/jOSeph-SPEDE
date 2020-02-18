@@ -1,12 +1,11 @@
+// syscall.c, 159
 //
-// Created by ChronoGuardian on 2/16/2020.
-//
+// Team Name: sampsonj (Members: Joshua Sampson)
 
-int get_time_call(void) {    // phase2
+int get_time_call(void) {
 	int time;
 
-	asm("int $48;
-	movl %%eax, %0"
+	asm("int $48; movl %%eax, %0"
 	: "=g" (time)
 	:
 	: "eax"
@@ -16,8 +15,7 @@ int get_time_call(void) {    // phase2
 }
 
 void write_call(char *str) {
-	asm("movl %0, %%eax;
-	int $49"
+	asm("movl %0, %%eax; int $49"
 	:
 	: "g" ((int)str)
 	: "eax"
@@ -25,10 +23,9 @@ void write_call(char *str) {
 }
 
 void read_call(char *str){
-    asm("movl %0, %%eax;
-    int $50"
-    :
-    : "g" ((int)str)
-    : "eax"
-    );
+	asm("movl %0, %%eax; int $50"
+	:
+	: "g" (str)
+	: "eax"
+	);
 }

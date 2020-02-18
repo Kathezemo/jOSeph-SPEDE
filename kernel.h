@@ -1,9 +1,10 @@
-// kernel.h, 159, kernel stuff prototyped here
+// kernel.h, 159
+//
+// Team Name: sampsonj (Members: Joshua Sampson)
 
 #ifndef __KERNEL__
 #define __KERNEL__
 
-//Define these constants:
 // H/W & I/O stuff
 #define CS 8                   // Code Segment register
 #define FLAGS 0x212            // CPU flags for trapframe
@@ -40,19 +41,19 @@ typedef void (*func_p_t)(void); // void-return function pointer type
 
 typedef enum {UNUSED, READY, RUN, WAIT} state_t;  // process states
 
-typedef struct {
-   unsigned edi, esi, ebp, esp, ebx, edx, ecx, eax, eip, cs, efl;
+typedef struct{
+	unsigned edi, esi, ebp, esp, ebx, edx, ecx, eax, eip, cs, efl;
 } tf_t;                      // 'trapframe' type
 
 typedef struct {
-   state_t state;            // state of process
-   unsigned run_tick, total_tick; // runtime of process and lifespan
-   tf_t *tf_p;               // points to proc's trapframe
+	state_t state;            // state of process
+	unsigned run_tick, total_tick; // runtime of process and lifespan
+	tf_t *tf_p;               // points to proc's trapframe
 } pcb_t;                     
 
 typedef struct {             // circular queue
-   int head, tail, size;     // head dequeue, tail enqueue, current size
-   int q[Q_SIZE];            // PID's are queued in que[] array
+	int head, tail, size;     // head dequeue, tail enqueue, current size
+	int q[Q_SIZE];            // PID's are queued in que[] array
 } q_t;
 
 typedef struct {
@@ -75,7 +76,7 @@ void WritService(tf_t *);
 void ReadService(tf_t *);
 
 void WriteChar(char);
-void KbService(char);
+void KBService(char);
 
 #endif
 

@@ -1,12 +1,12 @@
+// syscall.h, 159
 //
-// Created by ChronoGuardian on 2/16/2020.
-//
+// Team Name: sampsonj (Members: Joshua Sampson)
 
-#ifndef JOSH_SYSCALL_H
-#define JOSH_SYSCALL_H
+#ifndef SYSCALL_H
+#define SYSCALL_H
 
 int get_time_call(void);
-void write_call(char *str);
-void read_call(char *str);
+void write_call(char *);
+void read_call(char *);
 
-#endif //JOSH_SYSCALL_H
+#endif

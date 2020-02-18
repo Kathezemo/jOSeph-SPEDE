@@ -1,21 +1,26 @@
 // entry.h
-// prototypes those in entry.S
+//
+// Team Name: sampsonj (Members: Joshua Sampson)
 
 #ifndef __ENTRY__
 #define __ENTRY__
 
-#ifndef ASSEMBLER  // skip below if ASSEMBLER defined (from an assembly code)
-                   // since below is not in assembler syntax
+#ifndef ASSEMBLER
+
+#include <limits.h>
 __BEGIN_DECLS
 
-#include "kernel.h"        // tf_t below needs it
+#include "kernel.h"
+void Loader(tf_t *);
+void TimerEntry(void);
+void GetTimeEntry();
+void WriteEntry();
+void ReadEntry();
 
-void TimerEntry(void);     // coded in entry.S, assembler won't like this syntax
-void Loader(tf_t *);       // coded in entry.S
+
 
 __END_DECLS
 
-#endif // ifndef ASSEMBLER
+#endif
 
-#endif // ifndef __ENTRY__
-
+#endif
